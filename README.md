@@ -800,18 +800,5 @@ For support, please:
 - **tests/**: Complete test suite with 2,079 lines of validation code
 - **src/**: Modular source code with comprehensive documentation
 - **count_all_lines.py**: System analysis and metrics calculation
-
-### 🚀 **Quick Start Commands**
-```bash
-# One-click launch (recommended)
-python launch.py
-
-# Manual launch options  
-streamlit run dashboard.py                    # Main integrated system
-streamlit run pairs_dashboard.py --server.port=8502    # Pairs trading
-streamlit run volatility_dashboard.py --server.port=8503  # Derivatives
-
-# System validation
-python test_integrated_system.py             # Full system test
 python count_all_lines.py                    # Code metrics
 ```
